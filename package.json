@@ -3,12 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ap.cx/react-fullpage": "^0.3.0",
+    "@react-three/drei": "^9.51.22",
+    "@react-three/fiber": "^8.10.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
+    "babel-plugin-glsl": "^1.0.0",
+    "glsl-noise": "^0.0.0",
+    "glslify": "^7.1.1",
+    "leva": "^0.9.34",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons-kit": "^2.0.0",
     "react-scripts": "5.0.1",
+    "three": "^0.148.0",
+    "tw-elements": "^1.0.0-alpha13",
+    "typed.js": "^2.0.12",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
   }
 }
