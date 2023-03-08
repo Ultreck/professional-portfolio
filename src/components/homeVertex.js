@@ -1,4 +1,3 @@
-import React from 'react'
 
 const homeVertex = `
 uniform float u_intensity;

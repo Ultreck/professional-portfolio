@@ -1,9 +1,9 @@
-import * as THREE from "three";
-import img from '../images/software-2_1020x680 (1).webp';
-import React, { useRef, Suspense, useState } from "react";
+// import * as THREE from "three";
+// import img from '../images/software-2_1020x680 (1).webp';
+// import React, { useRef, Suspense, useState } from "react";
 import Fullpage, {FullPageSections, FullpageSection, FullpageNavigation} from '@ap.cx/react-fullpage';
 import HomeComp from "../components/HomeComp";
-import Aboutcomp from "../components/Aboutcomp";
+// import Aboutcomp from "../components/Aboutcomp";
 import Experience from "../components/Experience";
 import Carousel from "../components/Carousel";
 
@@ -16,9 +16,9 @@ const HomePage = () => {
             <FullpageSection >
                 <HomeComp  />
             </FullpageSection>
-            <FullpageSection  >
+            {/* <FullpageSection  >
               <Aboutcomp/>
-            </FullpageSection>
+            </FullpageSection> */}
             <FullpageSection  >
               <Experience/>
             </FullpageSection>

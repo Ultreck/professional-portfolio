@@ -1,4 +1,3 @@
-import React from 'react'
 
 const homeFrag = `
 uniform float u_intensity;
